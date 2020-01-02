@@ -1,0 +1,9 @@
+a{
+  color:skyblue;
+  text-decoration: underline;
+}
+
+a:hover
+{
+  background-color: deepskyblue;
+}

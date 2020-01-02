@@ -1,0 +1,60 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">EXERCICES BUDGETAIRES</h3>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <table id="example1" class="table table-bordered table-striped">
+              <thead>
+              <tr>
+                <th>Numero</th>
+                <th>Date debut</th>
+                <th>Date fin</th>
+                <th>Montant Initial</th>
+                <th>Montant budgetaire</th>
+                <th>Observation</th>
+                <th>Options</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let exercice of exercices">
+                <td>{{ exercice.id }}</td>
+                <td>{{ exercice.dateDebut }}</td>
+                <td>{{ exercice.dateFin }}</td>
+                <td>{{ exercice.montantInit }}</td>
+                <td>{{ exercice.montantBudg }}</td>
+                <td>{{ exercice.obs }}</td>
+                <td>
+                  <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i>Editer</a> 
+                  <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i>Supprimer</a>
+                </td>
+              </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Numero</th>
+                  <th>Date debut</th>
+                  <th>Date fin</th>
+                  <th>Montant Initial</th>
+                  <th>Montant budgetaire</th>
+                  <th>Observation</th>
+                  <th>Options</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+      </div>
+    </div>
+    <!-- /.row -->  
+  </div>
+  
+</body>
+<!-- /.row -->
+

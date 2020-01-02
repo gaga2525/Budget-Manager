@@ -20,7 +20,8 @@ import { ExerciceComponent } from './exercice/exercice.component';
 import { CatEntreeComponent } from './cat-entree/cat-entree.component';
 import { CatSortieComponent } from './cat-sortie/cat-sortie.component';
 import { HomeComponent } from './home/home.component';
-import { AuthService } from './services/auth.service';
+import { AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService } from './services/services';
+
 
 const appRoutes: Routes = [
   { path : '', component : HomeComponent },
@@ -62,7 +63,7 @@ const appRoutes: Routes = [
     RouterModule.forChild(appRoutes),
   ],
   providers: [
-    AuthService,
+    AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService
   ],
   bootstrap: [AppComponent]
 })

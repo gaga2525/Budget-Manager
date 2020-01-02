@@ -1,89 +1,106 @@
+import { Users, Exercices, Entree, Sortie, CategorieEntree, CategorieSortie } from './instances.services';
+
 export class AuthService {
-    users = [];
+    users: Users[] = [];
+    id = null;
     constructor() {}
 
-    save(user) {
+    save(user: Users) {
       this.users.push(user);
     }
 
-    edit(user,id) {
+    edit(user: Users, id: string) {
       this.users[id] = user;
     }
 
-    delete(id) {
+    delete(id: string) {
       this.users[id] = null;
     }
+
+    connect(newUser: Users){
+        for (let user in this.users) {
+            if (user.login === newUser.login && user.psw === newUser.psw) {
+                this.id = this.users.indexOf(user);
+                break;
+            }
+        }
+    }
+
+    deconnect(){
+        this.id = null;
+    }
+
   }
 
 export class CatEntreeService{
-    catEntrees = [];
+    catEntrees: CategorieEntree[] = [];
 
     constructor(){}
 
-    save(cat){
+    save(cat: CategorieEntree){
       this.catEntrees.push(cat);
     }
 
-    edit(id,cat){
+    edit(id: string, cat: CategorieEntree){
       this.catEntrees[id] = cat;
     }
 
-    delete(id){
+    delete(id: string){
       this.catEntrees[id] = null;
     }
   }
 
 
 export class CatSortieService {
-    catSorties = [];
+    catSorties: CategorieSortie[] = [];
 
     constructor() {}
 
-    save(cat) {
+    save(cat: CategorieSortie) {
       this.catSorties.push(cat);
     }
 
-    edit(id,cat) {
+    edit(id: string, cat: CategorieSortie) {
       this.catSorties[id] = cat;
     }
 
-    delete(id) {
+    delete(id: string) {
       this.catSorties[id] = null;
     }
   }
 
 export class EntreeService
 {
-  entrees = [];
+  entrees: Entree[] = [];
   constructor(){}
 
-  save(entree){
+  save(entree: Entree){
     this.entrees.push(entree);
   }
 
-  edit(id,entree){
+  edit(id: string, entree: Entree){
     this.entrees[id] = entree;
   }
 
-  delete(id){
+  delete(id: string){
     this.entrees[id] = null;
   }
 }
 
 export class  ExerciceService
 {
-  exercices = [];
+  exercices: Exercices[] = [];
   constructor(){}
 
-  save(exercice){
+  save(exercice: Exercices){
     this.exercices.push(exercice);
   }
 
-  edit(id,exercice){
+  edit(id: string, exercice: Exercices){
     this.exercices[id] = exercice;
   }
 
-  delete(id){
+  delete(id: string){
     this.exercices[id] = null;
   }
 }
@@ -93,15 +110,15 @@ export class SortieService{
 
     constructor(){}
 
-    save(sortie){
+    save(sortie: Sortie){
       this.sorties.push(sortie);
     }
 
-    edit(id,sortie){
+    edit(id: string, sortie: Sortie){
       this.sorties[id] = sortie;
     }
 
-    delete(id){
+    delete(id: string){
       this.sorties[id] = null;
     }
 }

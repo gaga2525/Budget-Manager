@@ -21,6 +21,7 @@ import { CatEntreeComponent } from './cat-entree/cat-entree.component';
 import { CatSortieComponent } from './cat-sortie/cat-sortie.component';
 import { HomeComponent } from './home/home.component';
 import { AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService } from './services/services';
+import { Users, Entree, Sortie, Exercices, CategorieEntree, CategorieSortie } from './services/instances.services';
 
 
 const appRoutes: Routes = [

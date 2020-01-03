@@ -22,20 +22,21 @@ import { CatSortieComponent } from './cat-sortie/cat-sortie.component';
 import { HomeComponent } from './home/home.component';
 import { AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService } from './services/services';
 import { Users, Entree, Sortie, Exercices, CategorieEntree, CategorieSortie } from './services/instances.services';
+import { AuthGuard } from './services/auth-guard-service';
 
 
 const appRoutes: Routes = [
-  { path : '', component : HomeComponent },
+  { path : '', canActivate: [AuthGuard], component : HomeComponent },
   { path : 'connexion', component : FormAuthComponent },
   { path : 'inscription', component : FormInscComponent },
-  { path : 'exercices', component : ExerciceComponent },
-  { path : 'entrees', component : EntreesComponent },
-  { path : 'sorties', component : SortiesComponent },
-  { path : 'new-exo', component : NewExerciceComponent },
-  { path : 'new-entree', component : SaveEntreeComponent },
-  { path : 'new-sortie', component : SaveSortieComponent },
-  { path : 'new-cat-entree', component : SaveCatEntreeComponent },
-  { path : 'new-cat-sortie', component : SaveCatSortieComponent }
+  { path : 'exercices', canActivate: [AuthGuard], component : ExerciceComponent },
+  { path : 'entrees', canActivate: [AuthGuard], component : EntreesComponent },
+  { path : 'sorties', canActivate: [AuthGuard], component : SortiesComponent },
+  { path : 'new-exo', canActivate: [AuthGuard], component : NewExerciceComponent },
+  { path : 'new-entree', canActivate: [AuthGuard], component : SaveEntreeComponent },
+  { path : 'new-sortie', canActivate: [AuthGuard], component : SaveSortieComponent },
+  { path : 'new-cat-entree', canActivate: [AuthGuard], component : SaveCatEntreeComponent },
+  { path : 'new-cat-sortie', canActivate: [AuthGuard], component : SaveCatSortieComponent }
 ]
 
 @NgModule({
@@ -64,7 +65,7 @@ const appRoutes: Routes = [
     RouterModule.forChild(appRoutes),
   ],
   providers: [
-    AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService
+    AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService, AuthGuard
   ],
   bootstrap: [AppComponent]
 })

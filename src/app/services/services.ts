@@ -17,14 +17,15 @@ export class AuthService {
       this.users[id] = null;
     }
 
-    connect(newUser: Users){
+    connect(login: string, psw: string): boolean{
         const longeur = this.users.length;
         for (let i = 0; i < longeur; i++) {
-          if(this.users[i].login === newUser.login){
+          if(this.users[i].login === login && this.users[i].psw === psw){
             this.id = i;
-            break;
+            return true;
           }
         }
+        return false;
     }
 
     deconnect(){

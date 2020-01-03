@@ -2,15 +2,13 @@ export class Users{
     login: string;
     psw: string;
     email: string;
-    telephone: string;
     nomComplet: string;
 
-    constructor(nomComplet: string,login: string,psw: string,email: string,phone: string){
+    constructor(nomComplet: string, login: string, psw: string, email: string) {
         this.nomComplet = nomComplet;
         this.login = login;
         this.psw = psw;
         this.email = email;
-        this.telephone = phone;
     }
 }
 
@@ -18,8 +16,8 @@ export class Exercices{
     dateDebut: string;
     dateFin: string;
     montantBudgetaire: bigint;
-    montantInit : bigint;
-    observation : string;
+    montantInit: bigint;
+    observation: string;
 
     constructor(dateDebut: string, dateFin: string, montantBudg: bigint, montantInit: bigint){
         this.dateDebut = dateDebut;

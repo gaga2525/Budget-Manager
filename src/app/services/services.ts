@@ -18,11 +18,12 @@ export class AuthService {
     }
 
     connect(newUser: Users){
-        for (let user in this.users) {
-            if (user.login === newUser.login && user.psw === newUser.psw) {
-                this.id = this.users.indexOf(user);
-                break;
-            }
+        const longeur = this.users.length;
+        for (let i = 0; i < longeur; i++) {
+          if(this.users[i].login === newUser.login){
+            this.id = i;
+            break;
+          }
         }
     }
 

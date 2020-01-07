@@ -1,7 +1,7 @@
 import { Users, Exercices, Entree, Sortie, CategorieEntree, CategorieSortie } from './instances.services';
 import { OnInit } from '@angular/core';
 
-export class LoaderService {
+export class LoaderService implements OnInit {
     users: Users[];
     exercices: Exercices[];
     entrees: Entree[];

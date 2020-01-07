@@ -64,9 +64,11 @@ const appRoutes: Routes = [
     AppRoutingModule,
     FormsModule,
     RouterModule.forChild(appRoutes),
+
   ],
   providers: [
-    AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService, AuthGuard
+    AuthService, EntreeService, SortieService, CatEntreeService, CatSortieService, ExerciceService, AuthGuard,
+    Entree, Sortie, Exercices, Users, CategorieEntree, CategorieSortie,
   ],
   bootstrap: [AppComponent]
 })

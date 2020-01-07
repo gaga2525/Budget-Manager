@@ -11,27 +11,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SortiesComponent implements OnInit {
 
-  sorties = [
-    {
-      id:1,
-      date:'2019-12-31',
-      categorie:'Nouritures et aliments',
-      montant:17000
-    },
-    {id:2,
-      date:'2019-12-30',
-      categorie:'Ergonomie',
-      montant:17800
-    },
-    {id:3, date:'2019-12-29', categorie:'Detente', montant:60000},
-    {id:4, date:'2019-12-28', categorie:'Dons de Charité', montant:200000},
-    {id:5, date:'2019-12-27', categorie:'Maintenance', montant:87000},
-  ];
+  sorties = [];
 
   constructor() {
-    let chaine = JSON.stringify(this.sorties);
-    console.log(chaine);
-   }
+  }
 
   ngOnInit() {
 

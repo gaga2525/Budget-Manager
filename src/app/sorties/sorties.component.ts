@@ -26,11 +26,15 @@ export class SortiesComponent implements OnInit {
     {id:3, date:'2019-12-29', categorie:'Detente', montant:60000},
     {id:4, date:'2019-12-28', categorie:'Dons de Charité', montant:200000},
     {id:5, date:'2019-12-27', categorie:'Maintenance', montant:87000},
-  ]
+  ];
 
-  constructor() { }
+  constructor() {
+    let chaine = JSON.stringify(this.sorties);
+    console.log(chaine);
+   }
 
   ngOnInit() {
+
   }
 
 }

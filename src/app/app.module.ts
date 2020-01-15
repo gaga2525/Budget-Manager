@@ -25,6 +25,7 @@ import { Users, Entree, Sortie, Exercices, CategorieEntree, CategorieSortie } fr
 import { AuthGuard } from './services/auth-guard-service';
 
 
+
 const appRoutes: Routes = [
   { path : '', canActivate: [AuthGuard], component : HomeComponent },
   { path : 'connexion', component : FormAuthComponent },

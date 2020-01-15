@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ExerciceService } from '../services/services';
+import { Exercices } from '../services/instances.services';
 
 @Component({
   selector: 'app-exercice',
@@ -11,11 +13,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExerciceComponent implements OnInit {
 
-  exercices = [];
+  exercices: Exercices[];
 
-  constructor() { }
+  constructor(private service: ExerciceService, private classExe: Exercices) { }
 
   ngOnInit() {
+    this.exercices = this.service.exercices;
   }
 
 }

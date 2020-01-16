@@ -19,8 +19,8 @@ export class FormAuthComponent implements OnInit {
   }
 
   connect() {
-    this.reponse= this.service.connect(this.login, this.psw);
-    if(this.reponse) {
+    this.reponse = this.service.connect(this.login, this.psw);
+    if (this.reponse) {
       console.log('connected');
       this.router.navigate(['']);
     } else {
@@ -28,7 +28,7 @@ export class FormAuthComponent implements OnInit {
     }
   }
 
-  disconnect(){
+  disconnect() {
     this.service.deconnect();
   }
 

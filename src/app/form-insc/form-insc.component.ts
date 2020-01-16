@@ -36,7 +36,7 @@ export class FormInscComponent implements OnInit {
   }
 
   signup(){
-    if(this.verificate()){
+    if (this.verificate()) {
       this.auth.save(this.user);
       this.router.navigate(['']);
     } else {

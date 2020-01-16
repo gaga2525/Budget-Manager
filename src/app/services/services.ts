@@ -1,26 +1,55 @@
 import { Users, Exercices, Entree, Sortie, CategorieEntree, CategorieSortie } from './instances.services';
+import {OnDestroy, OnInit} from '@angular/core';
 
-export class AuthService {
-    users: Users[] = [];
+abstract class Service {
+    protected constructor() {
+        this.loadDatas();
+    }
+
+    abstract loadDatas();
+
+    abstract saveDatas();
+
+}
+
+export class AuthService extends Service {
+    users: Users[];
     id = null;
-    constructor() {}
+
+    constructor() {
+        super();
+    }
+
+    loadDatas() {
+        const strDatas = localStorage.getItem('users');
+        this.users = JSON.parse(strDatas);
+        console.log(localStorage.getItem('users'));
+    }
+
+    saveDatas(): void {
+        const strDatas = JSON.stringify(this.users);
+        localStorage.setItem('users', strDatas);
+    }
 
     save(user: Users) {
       this.users.push(user);
+        this.saveDatas();
     }
 
     edit(user: Users, id: string) {
       this.users[id] = user;
+        this.saveDatas();
     }
 
     delete(id: string) {
       this.users[id] = null;
+        this.saveDatas();
     }
 
-    connect(login: string, psw: string): boolean{
+    connect(login: string, psw: string): boolean {
         const longeur = this.users.length;
         for (let i = 0; i < longeur; i++) {
-          if(this.users[i].login === login && this.users[i].psw === psw){
+            if (this.users[i].login === login && this.users[i].psw === psw) {
             this.id = i;
             return true;
           }
@@ -28,99 +57,171 @@ export class AuthService {
         return false;
     }
 
-    deconnect(){
+    deconnect() {
         this.id = null;
     }
 
   }
 
-export class CatEntreeService{
+export class CatEntreeService extends Service {
     catEntrees: CategorieEntree[] = [];
 
-    constructor(){}
+    constructor() {
+        super();
+    }
 
-    save(cat: CategorieEntree){
+    loadDatas() {
+        const strDatas = localStorage.getItem('cat-entrees');
+        this.catEntrees = JSON.parse(strDatas);
+    }
+
+    saveDatas() {
+        const strDatas = JSON.stringify(this.catEntrees);
+        localStorage.setItem('cat-entrees', strDatas);
+    }
+
+    save(cat: CategorieEntree) {
       this.catEntrees.push(cat);
+        this.saveDatas();
     }
 
-    edit(id: string, cat: CategorieEntree){
+    edit(id: string, cat: CategorieEntree) {
       this.catEntrees[id] = cat;
+        this.saveDatas();
     }
 
-    delete(id: string){
+    delete(id: string) {
       this.catEntrees[id] = null;
+        this.saveDatas();
     }
   }
 
 
-export class CatSortieService {
+export class CatSortieService extends Service {
     catSorties: CategorieSortie[] = [];
 
-    constructor() {}
+    constructor() {
+        super();
+    }
+
+    loadDatas() {
+        const strDatas = localStorage.getItem('cat-sorties');
+        this.catSorties = JSON.parse(strDatas);
+    }
+
+    saveDatas() {
+        const strDatas = JSON.stringify(this.catSorties);
+        localStorage.setItem('cat-sorties', strDatas);
+    }
 
     save(cat: CategorieSortie) {
       this.catSorties.push(cat);
+        this.saveDatas();
     }
 
     edit(id: string, cat: CategorieSortie) {
       this.catSorties[id] = cat;
+        this.saveDatas();
     }
 
     delete(id: string) {
       this.catSorties[id] = null;
+        this.saveDatas();
     }
   }
 
-export class EntreeService
-{
+export class EntreeService extends Service {
   entrees: Entree[] = [];
-  constructor(){}
 
-  save(entree: Entree){
+    constructor() {
+        super();
+    }
+
+    loadDatas() {
+        const strDatas = localStorage.getItem('entrees');
+        this.entrees = JSON.parse(strDatas);
+    }
+
+    saveDatas() {
+        const strDatas = JSON.stringify(this.entrees);
+        localStorage.setItem('entrees', strDatas);
+    }
+
+    save(entree: Entree) {
     this.entrees.push(entree);
+        this.saveDatas();
   }
 
-  edit(id: string, entree: Entree){
+    edit(id: string, entree: Entree) {
     this.entrees[id] = entree;
+        this.saveDatas();
   }
 
-  delete(id: string){
+    delete(id: string) {
     this.entrees[id] = null;
+        this.saveDatas();
   }
 }
 
-export class  ExerciceService
-{
+export class ExerciceService extends Service {
   exercices: Exercices[] = [];
-  constructor(){}
 
-  save(exercice: Exercices){
+    constructor() {
+        super();
+    }
+
+    loadDatas() {
+        const strDatas = localStorage.getItem('exercices');
+        this.exercices = JSON.parse(strDatas);
+    }
+
+    saveDatas() {
+        const strDatas = JSON.stringify(this.exercices);
+        localStorage.setItem('exercices', strDatas);
+    }
+
+
+    save(exercice: Exercices) {
     this.exercices.push(exercice);
   }
 
-  edit(id: string, exercice: Exercices){
+    edit(id: string, exercice: Exercices) {
     this.exercices[id] = exercice;
   }
 
-  delete(id: string){
+    delete(id: string) {
     this.exercices[id] = null;
   }
 }
 
-export class SortieService{
+export class SortieService extends Service {
     sorties = [];
 
-    constructor(){}
+    constructor() {
+        super();
+    }
 
-    save(sortie: Sortie){
+
+    loadDatas() {
+        const strDatas = localStorage.getItem('sorties');
+        this.sorties = JSON.parse(strDatas);
+    }
+
+    saveDatas() {
+        const strDatas = JSON.stringify(this.sorties);
+        localStorage.setItem('sorties', strDatas);
+    }
+
+
+    save(sortie: Sortie) {
       this.sorties.push(sortie);
     }
 
-    edit(id: string, sortie: Sortie){
+    edit(id: string, sortie: Sortie) {
       this.sorties[id] = sortie;
     }
 
-    delete(id: string){
+    delete(id: string) {
       this.sorties[id] = null;
     }
 }

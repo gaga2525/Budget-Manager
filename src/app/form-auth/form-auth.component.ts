@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/services';
 import { Router } from '@angular/router';
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-form-auth',
@@ -8,24 +9,28 @@ import { Router } from '@angular/router';
   styleUrls: ['../../../assets/bootstrap/css/bootstrap.min.css']
 })
 export class FormAuthComponent implements OnInit {
-
   login: string;
   psw: string;
   reponse: boolean;
+  authForm: FormGroup;
 
-  constructor(private service: AuthService, private router: Router ) { }
+  constructor(private service: AuthService, private router: Router, private formBuilder: FormBuilder ) { }
 
   ngOnInit() {
+    this.initform();
   }
 
-  connect() {
-    this.reponse = this.service.connect(this.login, this.psw);
-    if (this.reponse) {
-      console.log('connected');
-      this.router.navigate(['']);
-    } else {
-      console.log('Not connected');
-    }
+  initform(){
+    this.authForm = this.formBuilder.group({
+      login: ['', Validators.required],
+      psw: ['', Validators.required]
+    })
+  }
+
+  onSubmit() {
+    const values = this.authForm.value;
+    this.reponse = this.service.connect(values['login'], values['psw']);
+    if(this.reponse) this.router.navigate(['']);
   }
 
   disconnect() {

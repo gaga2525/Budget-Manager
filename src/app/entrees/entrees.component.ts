@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {CategorieEntree, Entree} from "../services/instances.services";
+import {EntreeService} from "../services/services";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-entrees',
@@ -11,27 +14,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntreesComponent implements OnInit {
 
-  sorties = [
-    {
-      id:1,
-      date:'2019-12-31',
-      categorie:'Nouritures et aliments',
-      montant:17000
-    },
-    {id:2,
-      date:'2019-12-30',
-      categorie:'Ergonomie',
-      montant:17800
-    },
-    {id:3, date:'2019-12-29', categorie:'Detente', montant:60000},
-    {id:4, date:'2019-12-28', categorie:'Dons de Charité', montant:200000},
-    {id:5, date:'2019-12-27', categorie:'Maintenance', montant:87000},
-  ]
+  categories: CategorieEntree[];
 
+  entrees: Entree[];
 
-  constructor() { }
+  constructor(private service: EntreeService, private router: Router) { }
 
   ngOnInit() {
+    this.entrees = this.service.entrees;
+  }
+
+  edit(index: number){
+    this.router.navigate(['/entrees/edit/'+index]);
+  }
+
+  delete(index: number){
+    this.service.delete(index);
+    this.router.navigate(['/entrees']);
   }
 
 }

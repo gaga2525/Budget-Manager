@@ -99,6 +99,10 @@ export class CatEntreeService extends Service {
       this.catEntrees.splice(id,1);
         this.saveDatas();
     }
+
+    getCategorieById(index: number): CategorieEntree{
+        return this.catEntrees[index];
+    }
   }
 
 
@@ -133,6 +137,10 @@ export class CatSortieService extends Service {
       this.catSorties.splice(id,1);
         this.saveDatas();
     }
+
+    getCategorieById(index: number): CategorieSortie{
+        return this.catSorties[index];
+    }
   }
 
 export class EntreeService extends Service {
@@ -144,7 +152,8 @@ export class EntreeService extends Service {
 
     loadDatas() {
         const strDatas = localStorage.getItem('entrees');
-        this.entrees = JSON.parse(strDatas);
+        const datas = JSON.parse(strDatas);
+        this.entrees = datas || [];
     }
 
     saveDatas() {

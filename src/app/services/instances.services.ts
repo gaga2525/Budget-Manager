@@ -30,12 +30,12 @@ export class Exercices{
 export class Entree{
     date: string;
     montant: bigint;
-    idCat: bigint;
+    categorie: CategorieEntree;
 
-    constructor(date: string, montant: bigint, categorie: bigint){
+    constructor(date: string, montant: bigint, categorie: CategorieEntree){
         this.date = date;
         this.montant = montant;
-        this.idCat = categorie;
+        this.categorie = categorie;
     }
 }
 
@@ -45,12 +45,13 @@ export class Categorie{
     constructor(intitule: string){
         this.intitule = intitule;
     }
+
 }
 
 export class Sortie{
     date: string;
     montant: bigint;
-    idCat: bigint;
+    categorie: CategorieSortie;
 }
 
 export class CategorieEntree extends Categorie{}

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Users } from '../services/instances.services';
 import { AuthService } from '../services/services';
 import { Router } from '@angular/router';
+import { FormBuilder, FormGroup, Validators, RequiredValidator } from '@angular/forms';
 
 @Component({
   selector: 'app-form-insc',
@@ -17,31 +18,28 @@ export class FormInscComponent implements OnInit {
   confPsw = '';
   email = '';
   user: Users = new Users(this.nom, this.login, this.psw, this.email);
+  userForm: FormGroup;
 
-  constructor(private auth: AuthService, private router: Router) { }
+  constructor(private service: AuthService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit() {
+    this.initform();
   }
 
-  verificate(): boolean{
-    // tslint:disable-next-line: triple-equals
-    if(this.user.nomComplet == '' || this.user.login == '' || this.user.psw == '' || this.user.email == ''){
-      return false;
-    } else if(this.user.nomComplet == null || this.user.login == null || this.user.psw == null || this.user.email == null){
-      return false;
-    } else if (this.user.psw !== this.confPsw) {
-      return false;
-    }
-    return true;
+  initform(){
+    this.userForm = this.formBuilder.group({
+      nom: ['', Validators.required],
+      login: ['', Validators.required],
+      psw: ['', Validators.required],
+      conf_psw: ['', Validators.required],
+      email: ['', Validators.required]
+    })
   }
 
-  signup(){
-    if (this.verificate()) {
-      this.auth.save(this.user);
-      this.router.navigate(['']);
-    } else {
-      console.log('Inscription echoue');
-    }
-  }
-
+ onSubmit(){
+  const values = this.userForm.value;
+  const user: Users = new Users(values['nom'], values['login'], values['psw'], values['email']);
+  this.service.save(user);
+  this.router.navigate(['']);
+ }
 }

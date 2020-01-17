@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ExerciceService } from '../services/services';
 import { Exercices } from '../services/instances.services';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-exercice',
@@ -15,10 +16,19 @@ export class ExerciceComponent implements OnInit {
 
   exercices: Exercices[];
 
-  constructor(private service: ExerciceService, private classExe: Exercices) { }
+  constructor(private service: ExerciceService, private router: Router) { }
 
   ngOnInit() {
     this.exercices = this.service.exercices;
   }
 
+  editer(index: number){
+    console.log("On cherche à editer ");
+    this.router.navigate(['/exercices/edit-exercice/'+index]);
+  }
+
+  supprimer(index: number){
+    console.log("La suppression de l'exercice");
+    this.service.delete(index);
+  }
 }

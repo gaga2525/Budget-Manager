@@ -15,11 +15,11 @@ export class Users{
 export class Exercices{
     dateDebut: string;
     dateFin: string;
-    montantBudgetaire: bigint;
-    montantInit: bigint;
+    montantBudgetaire: number;
+    montantInit: number;
     observation: string;
 
-    constructor(dateDebut: string, dateFin: string, montantBudg: bigint, montantInit: bigint){
+    constructor(dateDebut: string, dateFin: string, montantBudg: number, montantInit: number){
         this.dateDebut = dateDebut;
         this.dateFin = dateFin;
         this.montantBudgetaire = montantBudg;

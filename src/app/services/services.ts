@@ -1,5 +1,4 @@
 import { Users, Exercices, Entree, Sortie, CategorieEntree, CategorieSortie } from './instances.services';
-import {OnDestroy, OnInit} from '@angular/core';
 
 abstract class Service {
     protected constructor() {
@@ -9,6 +8,12 @@ abstract class Service {
     abstract loadDatas();
 
     abstract saveDatas();
+
+    abstract save(param);
+
+    abstract edit(param1, id: number);
+
+    abstract delete(index: number);
 
 }
 
@@ -36,13 +41,13 @@ export class AuthService extends Service {
         this.saveDatas();
     }
 
-    edit(user: Users, id: string) {
+    edit(user: Users, id: number) {
       this.users[id] = user;
         this.saveDatas();
     }
 
-    delete(id: string) {
-      this.users[id] = null;
+    delete(id: number) {
+      this.users.splice(id,1);
         this.saveDatas();
     }
 
@@ -64,7 +69,7 @@ export class AuthService extends Service {
   }
 
 export class CatEntreeService extends Service {
-    catEntrees: CategorieEntree[] = [];
+    catEntrees: CategorieEntree[] ;
 
     constructor() {
         super();
@@ -85,20 +90,20 @@ export class CatEntreeService extends Service {
         this.saveDatas();
     }
 
-    edit(id: string, cat: CategorieEntree) {
+    edit(cat: CategorieEntree, id: number) {
       this.catEntrees[id] = cat;
         this.saveDatas();
     }
 
-    delete(id: string) {
-      this.catEntrees[id] = null;
+    delete(id: number) {
+      this.catEntrees.splice(id,1);
         this.saveDatas();
     }
   }
 
 
 export class CatSortieService extends Service {
-    catSorties: CategorieSortie[] = [];
+    catSorties: CategorieSortie[] ;
 
     constructor() {
         super();
@@ -119,19 +124,19 @@ export class CatSortieService extends Service {
         this.saveDatas();
     }
 
-    edit(id: string, cat: CategorieSortie) {
+    edit(cat: CategorieSortie, id: number) {
       this.catSorties[id] = cat;
         this.saveDatas();
     }
 
-    delete(id: string) {
-      this.catSorties[id] = null;
+    delete(id: number) {
+      this.catSorties.splice(id,1);
         this.saveDatas();
     }
   }
 
 export class EntreeService extends Service {
-  entrees: Entree[] = [];
+  entrees: Entree[] ;
 
     constructor() {
         super();
@@ -152,19 +157,19 @@ export class EntreeService extends Service {
         this.saveDatas();
   }
 
-    edit(id: string, entree: Entree) {
+    edit(entree: Entree, id: number) {
     this.entrees[id] = entree;
         this.saveDatas();
   }
 
-    delete(id: string) {
-    this.entrees[id] = null;
+    delete(id: number) {
+        this.entrees.splice(id,1);
         this.saveDatas();
   }
 }
 
 export class ExerciceService extends Service {
-  exercices: Exercices[] = [];
+  exercices: Exercices[] ;
 
     constructor() {
         super();
@@ -183,14 +188,17 @@ export class ExerciceService extends Service {
 
     save(exercice: Exercices) {
     this.exercices.push(exercice);
+    this.saveDatas();
   }
 
-    edit(id: string, exercice: Exercices) {
+    edit(exercice: Exercices, id: number) {
     this.exercices[id] = exercice;
+    this.saveDatas();
   }
 
-    delete(id: string) {
-    this.exercices[id] = null;
+    delete(id: number) {
+    this.exercices.splice(id, 1);
+    this.saveDatas();
   }
 }
 
@@ -215,14 +223,17 @@ export class SortieService extends Service {
 
     save(sortie: Sortie) {
       this.sorties.push(sortie);
+      this.saveDatas();
     }
 
-    edit(id: string, sortie: Sortie) {
+    edit(sortie: Sortie, id: number) {
       this.sorties[id] = sortie;
+      this.saveDatas();
     }
 
-    delete(id: string) {
-      this.sorties[id] = null;
+    delete(id: number) {
+      this.sorties.splice(id,1);
+      this.saveDatas();
     }
 }
 

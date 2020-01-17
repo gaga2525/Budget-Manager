@@ -31,5 +31,4 @@ export class FormAuthComponent implements OnInit {
   disconnect() {
     this.service.deconnect();
   }
-
 }

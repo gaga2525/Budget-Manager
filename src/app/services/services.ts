@@ -1,4 +1,4 @@
-import { Users, Exercices, Entree, Sortie, CategorieEntree, CategorieSortie } from './instances.services';
+import {CategorieEntree, CategorieSortie, Entree, Exercices, Sortie, Users} from './instances.services';
 
 abstract class Service {
     protected constructor() {

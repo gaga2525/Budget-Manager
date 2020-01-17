@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { ExerciceService } from '../services/services';
-import { Exercices } from '../services/instances.services';
+import {Component, OnInit} from '@angular/core';
+import {ExerciceService} from '../services/services';
+import {Exercices} from '../services/instances.services';
 import {Router} from "@angular/router";
 
 @Component({

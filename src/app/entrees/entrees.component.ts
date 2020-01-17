@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CategorieEntree, Entree} from "../services/instances.services";
 import {EntreeService} from "../services/services";
 import {Router} from "@angular/router";
@@ -18,7 +18,9 @@ export class EntreesComponent implements OnInit {
 
   entrees: Entree[];
 
-  constructor(private service: EntreeService, private router: Router) { }
+
+    constructor(private service: EntreeService, private router: Router) {
+    }
 
   ngOnInit() {
     this.entrees = this.service.entrees;

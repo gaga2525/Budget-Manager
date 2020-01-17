@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Sortie} from "../services/instances.services";
-import {CatSortieService, SortieService} from "../services/services";
+import {SortieService} from "../services/services";
 import {Router} from "@angular/router";
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-sorties',

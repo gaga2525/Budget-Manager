@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="465deff2-690c-42cd-8232-bfe770fbf4d8" name="Default Changelist" comment="Module exercice terminé">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Budget-Manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="465deff2-690c-42cd-8232-bfe770fbf4d8" name="Default Changelist" comment="Module entrees terminé">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget-Manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Budget-Manager.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/addons-pro/cards-extended.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bootstrap/css/addons-pro/cards-extended.css" afterDir="false" />
@@ -400,6 +397,10 @@
       <change beforePath="$PROJECT_DIR$/assets/template/build/scss/plugins/_select2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/build/scss/plugins/_select2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/build/scss/plugins/_sweetalert2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/build/scss/plugins/_sweetalert2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/build/scss/plugins/_toastr.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/build/scss/plugins/_toastr.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/css/adminlte.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/css/adminlte.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/css/adminlte.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/css/adminlte.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/css/adminlte.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/css/adminlte.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/css/adminlte.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/css/adminlte.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/css/alt/adminlte.components.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/css/alt/adminlte.components.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/css/alt/adminlte.components.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/css/alt/adminlte.components.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/css/alt/adminlte.components.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/css/alt/adminlte.components.min.css" afterDir="false" />
@@ -441,6 +442,11 @@
       <change beforePath="$PROJECT_DIR$/assets/template/dist/img/photo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/photo2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/img/photo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/photo3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/img/photo4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/photo4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/img/prod-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/prod-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/img/prod-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/prod-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/img/prod-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/prod-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/img/prod-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/prod-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/dist/img/prod-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/prod-5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/img/user1-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/user1-128x128.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/img/user2-160x160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/user2-160x160.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/dist/img/user3-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/dist/img/user3-128x128.jpg" afterDir="false" />
@@ -502,6 +508,7 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/css/autoFill.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/css/autoFill.bootstrap4.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/autoFill.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/autoFill.bootstrap4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/autoFill.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/autoFill.bootstrap4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/dataTables.autoFill.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/dataTables.autoFill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/dataTables.autoFill.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-autofill/js/dataTables.autoFill.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-bs4/css/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-bs4/css/dataTables.bootstrap4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" afterDir="false" />
@@ -511,6 +518,7 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/css/buttons.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/css/buttons.bootstrap4.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.bootstrap4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.bootstrap4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.colVis.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.colVis.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.colVis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.colVis.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.flash.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.flash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-buttons/js/buttons.flash.min.js" afterDir="false" />
@@ -524,6 +532,7 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/css/colReorder.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/css/colReorder.bootstrap4.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/colReorder.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/colReorder.bootstrap4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/colReorder.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/colReorder.bootstrap4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/dataTables.colReorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/dataTables.colReorder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/dataTables.colReorder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-colreorder/js/dataTables.colReorder.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.min.css" afterDir="false" />
@@ -599,6 +608,94 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/ekko-lightbox/ekko-lightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/ekko-lightbox/ekko-lightbox.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/ekko-lightbox/ekko-lightbox.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/ekko-lightbox/ekko-lightbox.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/fastclick/fastclick.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/fastclick/fastclick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/ActiveFilter.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/ActiveFilter.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/BrowserWindow.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/BrowserWindow.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/EventReceiver.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/EventReceiver.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/FilterContainer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/FilterContainer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/StyledFilterContainer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/StyledFilterContainer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/styles.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterContainer/styles.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterControls.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterControls.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/FilterItem.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/FilterItem.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/StyledFilterItem.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/StyledFilterItem.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/styles.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItem/styles.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems/FilterItems.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems/FilterItems.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems/StyledFilterItems.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems/StyledFilterItems.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterItems/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr/Filterizr.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr/Filterizr.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr/installAsJQueryPlugin.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Filterizr/installAsJQueryPlugin.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrElement.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrElement.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrOptions/FilterizrOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrOptions/FilterizrOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrOptions/defaultOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrOptions/defaultOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrOptions/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/FilterizrOptions/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/Spinner.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/Spinner.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/StyledSpinner.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/StyledSpinner.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/makeSpinner.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/Spinner/makeSpinner.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/StyledFilterizrElement.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/StyledFilterizrElement.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/StyledFilterizrElements.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/StyledFilterizrElements.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/animate.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/animate.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/cssEasingValuesRegexp.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/cssEasingValuesRegexp.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/filterizrState.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/filterizrState.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/layout.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/config/layout.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/filterizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/filterizr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/getLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/getLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/index.jquery.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/index.jquery.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/installAsJQueryPlugin.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/installAsJQueryPlugin.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/jquery.filterizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/jquery.filterizr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/Packer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/Packer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getHorizontalLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getHorizontalLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getPackedLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getPackedLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getSameHeightLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getSameHeightLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getSameSizeLayoutPosition.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getSameSizeLayoutPosition.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getSameWidthLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getSameWidthLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getVerticalLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/layouts/getVerticalLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/Packer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/Packer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeHorizontalLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeHorizontalLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makePackedLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makePackedLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeSameHeightLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeSameHeightLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeSameSizeLayoutPosition.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeSameSizeLayoutPosition.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeSameWidthLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeSameWidthLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeVerticalLayoutPositions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/makeLayoutPositions/makeVerticalLayoutPositions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/BaseOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/BaseOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/ContainerLayout.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/ContainerLayout.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Destructible.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Destructible.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Dictionary.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Dictionary.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Dimensions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Dimensions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Options.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Options.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Position.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Position.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/RawOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/RawOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/RawOptionsCallbacks.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/RawOptionsCallbacks.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Resizable.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Resizable.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/SpinnerOptions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/SpinnerOptions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Styleable.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/Styleable.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/types/interfaces/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/allStringsOfArray1InArray2.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/allStringsOfArray1InArray2.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/checkOptionForErrors.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/checkOptionForErrors.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/debounce.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/debounce.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/filterItemArraysHaveSameSorting.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/filterItemArraysHaveSameSorting.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/getDataAttributesOfHTMLNode.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/getDataAttributesOfHTMLNode.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/getHTMLElement.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/getHTMLElement.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/intersection.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/intersection.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/merge.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/merge.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/noop.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/noop.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/setStyles.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/setStyles.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/shuffle.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/shuffle.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/sortBy.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/utils/sortBy.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/filterizr/vanilla.filterizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/filterizr/vanilla.filterizr.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/css/flag-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/css/flag-icon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/css/flag-icon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/css/flag-icon.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/1x1/ad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/1x1/ad.svg" afterDir="false" />
@@ -1115,6 +1212,40 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/4x3/za.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/4x3/za.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/4x3/zm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/4x3/zm.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/4x3/zw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flag-icon-css/flags/4x3/zw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/excanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/excanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/excanvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.colorhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.colorhelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.colorhelpers.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.colorhelpers.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.canvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.canvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.categories.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.categories.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.crosshair.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.crosshair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.crosshair.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.crosshair.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.errorbars.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.errorbars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.errorbars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.errorbars.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.fillbetween.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.fillbetween.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.fillbetween.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.fillbetween.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.image.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.image.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.image.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.navigate.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.navigate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.navigate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.navigate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.pie.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.pie.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.resize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.selection.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.selection.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.stack.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.stack.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.symbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.symbol.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.symbol.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.threshold.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.threshold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.threshold.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.threshold.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.time.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot-old/jquery.flot.time.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/flot/jquery.flot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/fontawesome-free/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/fontawesome-free/css/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/fontawesome-free/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/fontawesome-free/css/all.min.css" afterDir="false" />
@@ -1483,10 +1614,24 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jqvmap/maps/jquery.vmap.usa.districts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jqvmap/maps/jquery.vmap.usa.districts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jqvmap/maps/jquery.vmap.usa.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jqvmap/maps/jquery.vmap.usa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jqvmap/maps/jquery.vmap.world.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/batch-delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/batch-delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-grid-field.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-grid-field.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-load-indicator.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-load-indicator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-row-renderer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-row-renderer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/custom-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/data-manipulation.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/data-manipulation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/demos.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/demos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/external-pager.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/external-pager.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/loading-by-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/loading-by-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/localization.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/localization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/odata-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/odata-service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/rows-reordering.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/rows-reordering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/sorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/sorting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/static-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/static-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/demos/validation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/i18n/jsgrid-de.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/i18n/jsgrid-de.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/i18n/jsgrid-es.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/i18n/jsgrid-es.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/i18n/jsgrid-fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/i18n/jsgrid-fr.js" afterDir="false" />
@@ -1506,6 +1651,8 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/jsgrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/jsgrid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/jsgrid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/jsgrid.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/jsgrid/jsgrid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jsgrid/jsgrid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jszip/jszip.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jszip/jszip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/jszip/jszip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/jszip/jszip.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/moment/locale/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/moment/locale/af.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/moment/locale/ar-dz.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/moment/locale/ar-dz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/moment/locale/ar-kw.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/moment/locale/ar-kw.js" afterDir="false" />
@@ -1846,6 +1993,72 @@
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/raphael/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/raphael/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2-bootstrap4-theme/select2-bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2-bootstrap4-theme/select2-bootstrap4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/css/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/css/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/css/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/css/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/bn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/bs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/build.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/build.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/dsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/dsb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hsb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/hy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ka.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ps.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/pt-BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sr-Cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/tk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/i18n/zh-TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/select2/js/select2.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/sparklines/sparkline.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/sparklines/sparkline.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/summernote/font/summernote.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/summernote/font/summernote.eot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/template/plugins/summernote/font/summernote.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/template/plugins/summernote/font/summernote.ttf" afterDir="false" />
@@ -1988,6 +2201,18 @@
       <change beforePath="$PROJECT_DIR$/src/app/cat-sortie/cat-sortie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cat-sortie/cat-sortie.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cat-sortie/cat-sortie.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cat-sortie/cat-sortie.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cat-sortie/cat-sortie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cat-sortie/cat-sortie.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/entrees/entrees.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/entrees/entrees.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/entrees/entrees.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/entrees/entrees.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/entrees/entrees.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/entrees/entrees.component.spec.ts" afterDir="false" />
@@ -2038,6 +2263,7 @@
       <change beforePath="$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/auth-guard-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/auth-guard-service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/instances.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/instances.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/loader.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/loader.services.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/services.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/sorties/sorties.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sorties/sorties.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/sorties/sorties.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sorties/sorties.component.html" afterDir="false" />
@@ -2067,50 +2293,99 @@
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/exercice/exercice.component.ts">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="entrees.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/entrees/entrees.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="446">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="630">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save-sortie.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save-sortie.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instances.services.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/services/instances.services.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sorties.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/sorties/sorties.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/services/services.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3960">
+              <caret line="233" column="5" selection-start-line="233" selection-start-column="5" selection-end-line="233" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sorties.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/sorties/sorties.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -2126,21 +2401,53 @@
         <option value="$PROJECT_DIR$/src/app/exercice/exercice.component.ts" />
         <option value="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.ts" />
         <option value="$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.html" />
+        <option value="$PROJECT_DIR$/src/app/form-auth/form-auth.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/form-auth/form-auth.component.html" />
+        <option value="$PROJECT_DIR$/src/app/save-entree/save-entree.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.html" />
+        <option value="$PROJECT_DIR$/src/app/save-entree/save-entree.component.html" />
+        <option value="$PROJECT_DIR$/src/app/entrees/entrees.component.html" />
+        <option value="$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/entrees/entrees.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/sorties/sorties.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/services/instances.services.ts" />
+        <option value="$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.html" />
+        <option value="$PROJECT_DIR$/src/app/sorties/sorties.component.html" />
+        <option value="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.html" />
+        <option value="$PROJECT_DIR$/src/app/services/services.ts" />
+        <option value="$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.ts" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
-    <option name="width" value="1392" />
-    <option name="height" value="1006" />
+    <option name="width" value="1393" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2164,16 +2471,26 @@
               <item name="Budget-Manager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="edit-exercice" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Budget-Manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Budget-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sorties" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -2194,18 +2511,13 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor">
+    <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
-      <protractor-options value="" />
       <envs />
-      <scope-kind value="ALL" />
-      <method v="2" />
     </configuration>
-    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
-      <method v="2" />
-    </configuration>
-    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+    <configuration name="Angular Application" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:4200" />
+    <configuration name="Angular CLI Server" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -2213,8 +2525,12 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Protractor.E2E Tests" />
+      <item itemvalue="npm.Angular CLI Server" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -2227,90 +2543,282 @@
       <option name="presentableId" value="Default" />
       <updated>1579206671951</updated>
       <workItem from="1579206701363" duration="2704000" />
+      <workItem from="1579248401737" duration="2940000" />
+      <workItem from="1579257345665" duration="55000" />
+      <workItem from="1579257499596" duration="15936000" />
+      <workItem from="1579277617479" duration="245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2704000" />
+    <option name="totallyTimeSpent" value="21880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1041" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="npm" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32964602" />
+      <window_info id="npm" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32884097" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32884097" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info anchor="right" id="Database" order="1" visible="true" weight="0.015436241" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32964602" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32964602" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596154" />
+      <window_info id="npm" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.016025642" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Module exercice terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module exercice terminé" />
+    <MESSAGE value="Module entrees terminé" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module entrees terminé" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/entrees/entrees.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="990">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/exercice/exercice.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" lean-forward="true" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/instances.services.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/sorties/sorties.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/services.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="220" column="5" lean-forward="true" selection-start-line="220" selection-start-column="5" selection-end-line="220" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/sorties/sorties.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/edit-exercice/edit-exercice.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/form-auth/form-auth.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="228">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/form-auth/form-auth.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/save-entree/save-entree.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/exercice/exercice.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/exercice/exercice.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/save-entree/save-entree.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/entrees/entrees.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-entree/edit-entree.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/entrees/entrees.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/sorties/sorties.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/instances.services.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/services.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="233" column="5" selection-start-line="233" selection-start-column="5" selection-end-line="233" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/sorties/sorties.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/save-sortie/save-sortie.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-sortie/edit-sortie.component.ts" />
   </component>
   <component name="masterDetails">
     <states>

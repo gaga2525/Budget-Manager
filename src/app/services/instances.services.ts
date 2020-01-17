@@ -52,6 +52,12 @@ export class Sortie{
     date: string;
     montant: bigint;
     categorie: CategorieSortie;
+
+    constructor(date: string, montant: bigint, categorie: CategorieSortie){
+        this.date = date;
+        this.montant = montant;
+        this.categorie = categorie;
+    }
 }
 
 export class CategorieEntree extends Categorie{}

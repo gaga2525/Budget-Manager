@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {Sortie} from "../services/instances.services";
+import {CatSortieService, SortieService} from "../services/services";
+import {Router} from "@angular/router";
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-sorties',
@@ -11,26 +15,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SortiesComponent implements OnInit {
 
-  sorties = [
-    {
-      id:1,
-      date:'2019-12-31',
-      categorie:'Nouritures et aliments',
-      montant:17000
-    },
-    {id:2,
-      date:'2019-12-30',
-      categorie:'Ergonomie',
-      montant:17800
-    },
-    {id:3, date:'2019-12-29', categorie:'Detente', montant:60000},
-    {id:4, date:'2019-12-28', categorie:'Dons de Charité', montant:200000},
-    {id:5, date:'2019-12-27', categorie:'Maintenance', montant:87000},
-  ]
+  sorties: Sortie[];
 
-  constructor() { }
+  constructor(private service: SortieService, private router: Router) { }
 
   ngOnInit() {
+    this.sorties = this.service.sorties;
+  }
+
+  edit(index: number) {
+    this.router.navigate(['/sorties/edit/'+index]);
+  }
+
+  delete(index: number) {
+    this.service.delete(+index);
+    this.router.navigate(['/sorties']);
   }
 
 }

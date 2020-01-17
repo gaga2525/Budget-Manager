@@ -24,6 +24,7 @@ import { AuthService, EntreeService, SortieService, CatEntreeService, CatSortieS
 import { AuthGuard } from './services/auth-guard-service';
 import { EditExerciceComponent } from './edit-exercice/edit-exercice.component';
 import { EditEntreeComponent } from './edit-entree/edit-entree.component';
+import { EditSortieComponent } from './edit-sortie/edit-sortie.component';
 
 
 
@@ -36,11 +37,12 @@ const appRoutes: Routes = [
   { path : 'sorties', canActivate: [AuthGuard], component : SortiesComponent },
   { path : 'exercices/new-exo', canActivate: [AuthGuard], component : NewExerciceComponent },
   { path : 'entrees/new-entree', canActivate: [AuthGuard], component : SaveEntreeComponent },
-  { path : 'new-sortie', canActivate: [AuthGuard], component : SaveSortieComponent },
+  { path : 'sorties/new-sortie', canActivate: [AuthGuard], component : SaveSortieComponent },
   { path : 'new-cat-entree', canActivate: [AuthGuard], component : SaveCatEntreeComponent },
   { path : 'new-cat-sortie', canActivate: [AuthGuard], component : SaveCatSortieComponent },
     { path: 'exercices/edit-exercice/:id', canActivate: [AuthGuard], component: EditExerciceComponent },
-  { path: 'entrees/edit/:id', canActivate: [AuthGuard], component: EditEntreeComponent}
+  { path: 'entrees/edit/:id', canActivate: [AuthGuard], component: EditEntreeComponent},
+  { path: 'sorties/edit/:id', canActivate: [AuthGuard], component: EditSortieComponent}
 ]
 
 @NgModule({
@@ -62,7 +64,8 @@ const appRoutes: Routes = [
     CatSortieComponent,
     HomeComponent,
     EditExerciceComponent,
-    EditEntreeComponent
+    EditEntreeComponent,
+    EditSortieComponent
   ],
   imports: [
     BrowserModule,

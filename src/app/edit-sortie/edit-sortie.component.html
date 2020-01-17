@@ -1,0 +1,46 @@
+<body>
+<div class="container">
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+        <div class="card card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Editer une sortie</h3>
+            </div>
+            <!-- /.card-header -->
+            <!-- form start -->
+            <form [formGroup]="sortieForm" (ngSubmit)="onSubmit()" role="form">
+                <div class="card-body">
+                    <div class="form-group">
+                        <input type="date" class="form-control" formControlName="date" placeholder="Date de sortie" required >
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" formControlName="categorie" required>
+                            <option disabled selected>Categorie de sortie</option>
+                            <option *ngFor="let categorie of catService.catSorties; let id=index" value="{{ id }}">{{ categorie.intitule }}</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="number" class="form-control" min="100" step="100" formControlName="montant" placeholder="Montant de sortie" required>
+                        <div style="text-align:justify; background-color: rgb(200, 200, 200); padding: 1px; border-radius : 0.5mm"
+                             class="input-group-addon">CDF</div>
+                    </div>
+
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-success" [disabled]="sortieForm.invalid">Editer</button>
+                    <button type="reset" class="btn btn-danger float-right">Annuler</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+
+<!-- /.card -->
+
+

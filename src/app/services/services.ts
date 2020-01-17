@@ -27,8 +27,8 @@ export class AuthService extends Service {
 
     loadDatas() {
         const strDatas = localStorage.getItem('users');
-        this.users = JSON.parse(strDatas);
-        console.log(localStorage.getItem('users'));
+        const datas = JSON.parse(strDatas);
+        this.users = datas || [];
     }
 
     saveDatas(): void {
@@ -77,7 +77,8 @@ export class CatEntreeService extends Service {
 
     loadDatas() {
         const strDatas = localStorage.getItem('cat-entrees');
-        this.catEntrees = JSON.parse(strDatas);
+        const datas = JSON.parse(strDatas);
+        this.catEntrees = datas || [];
     }
 
     saveDatas() {
@@ -115,7 +116,8 @@ export class CatSortieService extends Service {
 
     loadDatas() {
         const strDatas = localStorage.getItem('cat-sorties');
-        this.catSorties = JSON.parse(strDatas);
+        const datas = JSON.parse(strDatas);
+        this.catSorties = datas || [];
     }
 
     saveDatas() {
@@ -186,7 +188,8 @@ export class ExerciceService extends Service {
 
     loadDatas() {
         const strDatas = localStorage.getItem('exercices');
-        this.exercices = JSON.parse(strDatas);
+        const datas = JSON.parse(strDatas);
+        this.exercices = datas || [];
     }
 
     saveDatas() {
@@ -212,7 +215,7 @@ export class ExerciceService extends Service {
 }
 
 export class SortieService extends Service {
-    sorties = [];
+    sorties: Sortie[] = [];
 
     constructor() {
         super();
@@ -221,7 +224,8 @@ export class SortieService extends Service {
 
     loadDatas() {
         const strDatas = localStorage.getItem('sorties');
-        this.sorties = JSON.parse(strDatas);
+        const datas = JSON.parse(strDatas);
+        this.sorties = datas || [];
     }
 
     saveDatas() {

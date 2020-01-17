@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {CatSortieService, SortieService} from "../services/services";
+import {Route, Router} from "@angular/router";
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {Sortie} from "../services/instances.services";
 
 @Component({
   selector: 'app-save-sortie',
@@ -11,9 +15,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SaveSortieComponent implements OnInit {
 
-  constructor() { }
+  sortieForm: FormGroup;
+  id: number;
+
+  constructor(private service: SortieService, private router: Router,
+              private formBuilder: FormBuilder, private catService: CatSortieService) { }
 
   ngOnInit() {
+    this.initform();
+  }
+
+  initform() {
+    this.sortieForm = this.formBuilder.group(
+        {
+          date: ['', Validators.required],
+          montant: ['', Validators.required],
+          categorie: ['', Validators.required]
+        }
+    )
+  }
+
+  onSubmit(){
+    const values = this.sortieForm.value;
+    const sortie = new Sortie(values['date'], values['montant'], this.catService.getCategorieById(values['categorie']));
+    this.service.save(sortie);
+    this.router.navigate(['/sorties']);
   }
 
 }

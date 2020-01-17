@@ -1,3 +1,4 @@
+
 <body>
   <div class="container">
     <div class="row">
@@ -5,10 +6,13 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">SORTIES</h3>
+            <a routerLink="/sorties/new-sortie" class="float-right" style="text-decoration: underline">
+              Nouvelle sorties
+            </a>
           </div>
           <!-- /.card-header -->
           <div class="card-body">
-            <table id="example1" class="table table-bordered table-striped">
+            <table id="example1" class="table table-bordered table-striped table-responsive">
               <thead>
               <tr>
                 <th>Numero</th>
@@ -19,14 +23,14 @@
               </tr>
               </thead>
               <tbody>
-              <tr *ngFor="let sortie of sorties">
-                <td>{{ sortie.id }}</td>
+              <tr *ngFor="let sortie of sorties; let id=index">
+                <td>{{ id+1 }}</td>
                 <td>{{ sortie.date }}</td>
-                <td>{{ sortie.categorie }}</td>
+                <td>{{ sortie.categorie.intitule }}</td>
                 <td> {{ sortie.montant }}</td>
                 <td>
-                  <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i>Editer</a> 
-                  <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i>Supprimer</a>
+                  <a routerLink="/sorties" class="btn btn-primary btn-sm" (click)="edit(id)"><i class="fa fa-edit"></i>Editer</a>
+                  <a routerLink="/sorties" class="btn btn-danger btn-sm" (click)="delete(id)"><i class="fa fa-trash"></i>Supprimer</a>
                 </td>
               </tr>
               </tbody>
